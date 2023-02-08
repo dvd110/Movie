@@ -24,7 +24,6 @@ class MovieViewController: UIViewController {
         super.viewDidLoad()
         
         title = movie?.title
-        view.backgroundColor = .green
         
         titleLabel.text = movie?.title
         descriptionLabel.text = movie?.plot
